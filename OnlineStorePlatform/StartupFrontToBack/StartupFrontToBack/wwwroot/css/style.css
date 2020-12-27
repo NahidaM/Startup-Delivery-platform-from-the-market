@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+}
+.contact {
+  width: 100%;
+  background-color: #89c74a;
+  display: flex;
+  justify-content: space-around;
+}
+.number {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number h5 {
+  font-size: 18px;
+  color: white;
+}
+.number h5 span {
+  padding-right: 10px;
+}
+#select1 {
+  width: 100px;
+  margin-left: 20px;
+  background-color: #89c74a;
+  color: white;
+  margin-bottom: 12px;
+}
+.hr {
+  width: 2px;
+  height: 30px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.social {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social p {
+  padding: 20px 20px 10px 10px;
+  color: white;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+.menu {
+  width: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  padding: 40px;
+}
+.menu li a {
+  font-size: 16px;
+  padding: 20px 10px 20px 10px;
+  font-weight: 900;
+  font-family: "Lemonada", cursive;
+  color: black;
+}
+.icon {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon p {
+  padding: 20px 10px 20px 10px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.search2 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search2 #search-input {
+  padding: 10px 80px 10px 80px;
+  margin-bottom: 17px;
+}
+.search2 i {
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  font-size: 20px;
+}
+
+.jumbatron {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/main.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  object-fit: cover;
+  position: relative;
+} 
+.jumbatron .sale {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 320px;
+  border: 5px solid #89c74a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jumbatron h1,
+h2,
+h5,
+a {
+  padding: 10px;
+}
+.jumbatron h2 {
+  color: #e7160e;
+  width: 500px;
+  font-family: "Lemonada", cursive;
+  font-size: 32px;
+  font-weight: 900;
+}
+.jumbatron h3 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #303130;
+}
+.jumbatron h1 {
+  color: #303130;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.jumbatron a {
+  padding: 10px 25px 10px 25px;
+  color: red;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 16px;
+}
+.middle {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.left {
+  width: 49%;
+  background-image: url("../img/kok.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  padding: 60px;
+}
+.left h1 {
+  padding: 10px;
+  font-family: "Lemonada", cursive;
+}
+.left p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+.left span {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+.left a {
+  background-color: tomato;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 13px 5px 13px;
+}
+.left::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  color: red;
+  z-index: 99;
+}
+.right {
+  width: 49%;
+  background-image: url("../img/limon.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  padding: 60px;
+}
+.right h1 {
+  padding: 10px;
+  font-family: "Lemonada", cursive;
+}
+.right p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+.right span {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+.right a {
+  background-color: tomato;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 13px 5px 13px;
+}
+.right::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  color: red;
+  z-index: 99;
+}
+
+/* product */
+.product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product h1,
+p {
+  padding: 10px;
+}
+.product h1 {
+  color: #89c74a;
+  font-family: "Lemonada", cursive;
+}
+.product p {
+  font-family: "Poppins", sans-serif;
+}
+.productnames {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.productname {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+}
+
+#products ul li a {
+  margin-right: 30px;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  background-color: #89c74a;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#products ul li a:hover {
+  color: #f34f3f;
+  text-decoration: none;
+}
+
+#products .product-item .img {
+  overflow: hidden;
+}
+
+#products .product-item .img img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#products .product-item .img:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+#products .product-item .title h6 {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#products .product-item .price span:nth-child(2) {
+  margin-left: -10px;
+}
+
+#products .product-item .price span:nth-child(1) {
+  margin-left: -70px;
+  opacity: 0;
+}
+
+#products .product-item .price span {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#products .product-item .price span:hover {
+  color: #f34f3f !important;
+}
+
+#products .product-item:hover .price span:nth-child(2) {
+  margin-left: 0px;
+  opacity: 0;
+}
+
+#products .product-item:hover .price span:nth-child(1) {
+  margin-left: 30px;
+  opacity: 1;
+}
+
+/* product */ 
+
+footer {
+  background: #89c74a;
+  margin-top: 40px; 
+}
+
+footer .item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+footer a {
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f34f3f !important;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.discount {
+  background: #89c74a;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.discount h1 {
+  font-size: 35px;
+  font-style: italic;
+  padding-top: 55px;
+}
+.discount ul {
+  list-style-type: none;
+}
+
+.discount ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.containerMarket {
+  width: 100%;
+  height: 100vh;
+  background-color: #89c74a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  background-color: white;
+  width: 35%;
+  max-height: max-content;
+  margin-bottom: 10px;
+}
+.signup input,
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(238, 232, 232);
+  margin-top: 3px;
+  margin-bottom: 3px;
+  outline: none;
+  border: none;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font: 1rem/1.5 "PT Sans", Arial, sans-serif;
+  color: #5a5a5a;
+}
+.signup input::placeholder {
+  font-family: "Lemonada", cursive;
+  color: black;
+}
+.signup select,
+option {
+  font-family: "Lemonada", cursive;
+}
+.signup p {
+  color: black;
+  font-size: 15px;
+  font-family: "Lemonada", cursive;
+}
+.time {
+  width: 49% !important;
+}
+
+
+.item .card .card-img-top img{
+  height: 200px;
+  width: 200px;
+}
+
+
+

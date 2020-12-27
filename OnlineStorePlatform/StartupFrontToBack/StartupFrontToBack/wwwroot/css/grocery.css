@@ -1,0 +1,133 @@
+.social {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social p {
+  padding: 20px 20px 10px 10px;
+  color: white;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+.menu {
+  width: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 40px;
+}
+
+.menu li a {
+  font-size: 16px;
+  padding: 20px 10px 20px 10px;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+.icon {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon p {
+  padding: 20px 10px 20px 10px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.search2 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search2 #search-input {
+  padding: 10px 80px 10px 80px;
+  margin-bottom: 17px;
+}
+.search2 i {
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  font-size: 20px;
+}
+
+.elan {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.onep {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  height: 250px;
+  border: 1px solid red;
+}
+
+.threep {
+  margin-left: 30px;
+  width: 50%;
+  height: 150px;
+  margin-top: 20px;
+}
+.threep p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.threep span {
+  color: red;
+}
+.elan {
+  background-color: #89c74a;
+}
+
+footer {
+  background: #89c74a;
+  margin-top: 40px;
+}
+
+footer .item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+footer a {
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f34f3f !important;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+}

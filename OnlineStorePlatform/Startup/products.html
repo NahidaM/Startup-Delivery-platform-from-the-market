@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <div class="header">
+        <nav>
+            <div class="top">
+                <div class="logo">
+                    <img src="./img/logo1.jpg" alt="">
+                </div>
+                <ul class="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="discounts.html">Discounts</a></li>
+                  <li><a href="grocery.html">Nearby</a></li> 
+                  <li><a href="addmarket.html">Add Market</a></li>
+              </ul>
+                <div class="search2">
+                    <form >
+                        <input type="search" id='search-input' placeholder="Search Here">
+                        <i class="fas fa-search"></i>
+                        <ul id="search-list"></ul> 
+                    </form>
+                </div>
+
+                <div class="icon">
+                    <p><i class="far fa-heart"></i></p>
+                    <p><i class="fas fa-shopping-cart"></i></p>
+                </div>
+            </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAİN START -->
+    <main> 
+        <!-- Product Start-->
+        <section id="products">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="popular">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px;"
+                        src="img/meat-1.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="popular">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/cookie-1.jfif"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="fruits">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/fruit-1.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="fruits">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/fruit-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="vegetables">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/vegetable-1.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="vegetables">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/vegetable-2.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="cookies">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/cookie-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="cookies">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/cookie-3.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="cookies">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/cookie-4.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="meat">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/meat-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                <div class="product-item text-center" data-id="flour">
+                  <div class="img">
+                    <a href="">
+                      <img
+                        style="height: 200px"
+                        src="img/flour-1.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="title mt-3">
+                    <h6>MAJESTY PALM</h6>
+                  </div>
+                  <div class="price">
+                    <span class="text-black-50">Add to cart</span>
+                    <span class="text-black-50">$259</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Product End-->
+    </main>
+  <!-- MAİN END -->
+    <!-- FOOTER START -->
+
+    <footer>
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-md-6 col-lg-3">
+              <div class="item">
+                <h6>CUSTOMER SERVICE</h6>
+                <ul class="list-unstyled mt-4">
+                  <li><a class="text-black-50" href="">Help & Contact Us</a></li>
+                  <li><a class="text-black-50" href="">Returns & Refunds</a></li>
+                  <li><a class="text-black-50" href="">Online Stores</a></li>
+                  <li><a class="text-black-50" href="">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item">
+                <h6>COMPANY</h6>
+                <ul class="list-unstyled mt-4">
+                  <li><a class="text-black-50" href="">About Us</a></li>
+                  <li><a class="text-black-50" href="">Blog</a></li>
+                  <li><a class="text-black-50" href="">Order Tracking</a></li>
+                  <li><a class="text-black-50" href="">FAQ Page</a></li>
+                  <li><a class="text-black-50" href="">Contact Us</a></li>
+                  <li><a class="text-black-50" href="">Login</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item">
+                <h6>SOCIAL MEDIA</h6>
+                <ul class="list-unstyled mt-4">
+                  <li><a class="text-black-50" href="">Twitter</a></li>
+                  <li><a class="text-black-50" href="">Instagram</a></li>
+                  <li><a class="text-black-50" href="">Tumblr</a></li>
+                  <li><a class="text-black-50" href="">Pinterest</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item">
+                <h6>ARCHIVE</h6>
+                <ul class="list-unstyled mt-4">
+                  <li><a class="text-black-50" href="">Feature Index</a></li>
+                  <li><a class="text-black-50" href="">Login</a></li>
+                  <li><a class="text-black-50" href="">Help & Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <hr />
+  
+          <div class="row py-2">
+            <div class="col-lg-4 text-center text-lg-left">
+              <p class="text-black-50">
+                Powered by
+                <a class="author text-muted" href="#">....</a>
+                2020
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="img/footer-bottom-1.png" class="fluid" alt="" />
+            </div>
+            <div class="col-lg-4 text-center text-lg-right mt-3 mt-lg-0">
+              <a class="text-black-50 mr-5" href="#">LINKEDIN</a>
+              <a class="text-black-50" href="#">FACEBOOK</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <!-- FOOTER END -->
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://kit.fontawesome.com/80affcf9b0.js"
+        crossorigin="anonymous"
+      ></script>
+      <script src="js/script.js"></script>
+    </body>
+  </html>
